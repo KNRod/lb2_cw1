@@ -1,32 +1,54 @@
+<!doctype html>
 <html lang=ja>
-  <head>
 <meta charset="utf-8">
-<title>無題ドキュメント</title>
+<title>無題</title>
 <style>
 h1 {
-	background-color : yellowgreen;
-	color: black;
+	background-color : black;
+	color: white;
+  display:inline-block;
+  font-size: 50;
+  font-weight: bold;
 }
-</style>
-<h1>
-   <font size= 7>
-   aaa
-    </h1>
-</head>
-  <body>
-    <title>nothing</title>
-   <h2><font size= 5>本日の内容</h2>
-    <p><font size= 2>
-        <style>
-    p {
+  .font-1 {
       background-color : yellowgreen;
 	color: black;
-    }
-  </style>（非表示）</p>
-    <h2><font size= 5>
-      今後の懸念など</h2>
-    <p><font size= 2>ついていけるかどうか<span style="color: red;">不安</span>ですが</p>
-    <p>よろしくお願いします</p>
+   display: table;
+    font-weight: normal;
+    font-size: 20;
+   }
+  .font-2 {
+  	font-family: '小塚明朝 Pro';
+    color: black;
+    font-weight: bold ;
+    font-size: 15;
+   }
+   .font-3 {
+  border: 2px solid black;
+  padding: 15px
+	color: black;
+   display:table;
+    font-weight: normal;
+    font-size: 20;
+   }
+   .font-4 {
+  font-family: '小塚明朝 Pro';
+    color: black;
+    font-weight: normal ;
+     font-size: 15; 
+     padding-left:1em;
+    text-indent:-1em;
+   }
+  
+</style>
+<head><h1>徒然（仮）</h1></head>
+  <body>
+    <title>nothing</title>
+   <h class= "font-3">本日の内容</h>
+    <p class="font-2">（非表示）</p>
+    <h class= "font-3">本日の内容</h>
+    <p class="font-4">ついていけるかどうか<span style= "color: red; font: bold 15pt 'Yu Gothic';">不安</span>ですが
+      よろしくお願いします</p>
     <h2><font size= 5>おわりに</h2>
     <p><font size= 2><a href=#>リンク</a>（ダミー）</p>
   </body>
